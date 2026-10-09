@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://img.icons8.com/color/96/sign-language.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real-Time Hand Gesture Recognition & ASL Translation</title>
+    <meta name="description" content="Real-time American Sign Language (ASL) gesture recognition and translation dashboard with live webcam tracking, landmark mesh visualization, debounced sentence builder, and snapshot analysis." />
+    <meta property="og:title" content="Real-Time Hand Gesture Recognition & ASL Translation" />
+    <meta property="og:description" content="Real-time American Sign Language (ASL) gesture recognition and translation dashboard with live webcam tracking, landmark mesh visualization, debounced sentence builder, and snapshot analysis." />
+    <!-- MediaPipe Hands & Camera Utils scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 min-h-screen antialiased selection:bg-blue-100 selection:text-blue-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

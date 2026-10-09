@@ -1,0 +1,6 @@
+{
+  "name": "Real-Time Hand Gesture Recognition & ASL Translation",
+  "description": "Real-time American Sign Language (ASL) gesture recognition and translation dashboard with live webcam tracking, landmark mesh visualization, debounced sentence builder, and snapshot analysis.",
+  "permissions": [],
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
